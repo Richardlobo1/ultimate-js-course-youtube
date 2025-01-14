@@ -40,7 +40,7 @@ console.log(name.slice(2)); // Output: rry
 The `replace()` method returns a new string with some or all matches of a pattern replaced by a replacement string.
 ```js
 let name = "Harry";
-console.log(name.replace("ry", "is")); // Output: Hais
+console.log(name.replace("ry", "is")); // Output: Haris
 console.log(name.replace("Ry", "is")); // This will not work because "Ry" is not present in the string
 ```
 Note that `replace()` is case-sensitive.
